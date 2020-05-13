@@ -20,7 +20,7 @@ variables, objects, and indeces are indicated in _italics_
 
 * **add()** and **rAdd()** 
 
-&nbsp; &nbsp; &nbsp; &nbsp;  **rAdd()** is a recursive function that places a new node _tempNode_ in the left or right subtree according to its comparison with the root of the subtress.  
+&nbsp; &nbsp; &nbsp; &nbsp;  **rAdd()** is a recursive function that places a new node _tempNode_ in the left or right subtree according &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; to its comparison with the root of the subtress.  
 
 &nbsp; &nbsp; &nbsp; &nbsp;  **add()** - adds node using name parameters and calls **rAdd()** for proper ordering
 
