@@ -6,21 +6,34 @@ A **Node** class is used to create the entries, while the **BinaryTree** class b
 
 # Class descriptions
 
+classes and functions/methods are indicated in **bold**
+
+variables, objects, and indeces are indicated in _italics_
+
 ### Node
 (Node.java)
 
-* 
+ *  Creates a _Node_ object consisting of _first name_, _last name_, _phone number_, and _email address_ using **get()** and **set()** methods 
 
-## BinaryTree
+### BinaryTree
 (BinaryTree.java)
 
-* **add()** and **rAdd()** -
+* **add()** and **rAdd()** 
 &nbsp; &nbsp; &nbsp; &nbsp;  **rAdd()** is a recursive function that places a new node _tempNode_ in the left or right subtree according to its comparison with the root of the subtress.  
-&nbsp; &nbsp; &nbsp; &nbsp;  **add()** adds node using parameters in **Main** class and calls **rAdd()** for proper ordering
+
+&nbsp; &nbsp; &nbsp; &nbsp;  **add()** - adds node using name parameters and calls **rAdd()** for proper ordering
+
+* **find()** and **rFind()**
+&nbsp; &nbsp; &nbsp; &nbsp;  **rFind()** is a fecursive function that traverses the tree according to whether _tempNode_ data greater than, equal to, or less than root of subtree.
+
+&nbsp; &nbsp; &nbsp; &nbsp;  **find()** - finds node using name parameters and calls **rAdd()** for proper ordering
+
+* **Remove()** - removes node using name parameters, and uses **getLeftMostChild()** helper function.
+
+* **printTree()** - recursively traverses tree inorder to print node name data in alphabetical order.
+
+### Main
+* Instantiates _BinaryTree_ object, adds and prints _Node_ data
 
 
 
-* uses a Node object to create a binary tree using inorder traversal by
- *    adding, removing, and looking up nodes
- *    prints the tree using inorder traversal so that node names are in alphabetical order
- *    instantiates Node object tempNode as needed
