@@ -20,13 +20,13 @@ variables, objects, and indeces are indicated in _italics_
 
 * **add()** and **rAdd()** 
 
-&nbsp; &nbsp; &nbsp; &nbsp;  **rAdd()** is a recursive function that places a new node _tempNode_ in the left or right subtree according  to its comparison with the &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; root of the subtress.  
+&nbsp; &nbsp; &nbsp; &nbsp;  **rAdd()** is a recursive function that places a new node _tempNode_ in the left or right subtree according  to its comparison with &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; the root of the subtress.  
 
 &nbsp; &nbsp; &nbsp; &nbsp;  **add()** - adds node using name parameters and calls **rAdd()** for proper ordering
 
 * **find()** and **rFind()**
 
-&nbsp; &nbsp; &nbsp; &nbsp;  **rFind()** is a fecursive function that traverses the tree according to whether _tempNode_ data greater than, equal to, or less than root of subtree.
+&nbsp; &nbsp; &nbsp; &nbsp;  **rFind()** is a fecursive function that traverses the tree according to whether _tempNode_ data greater than, equal to, or less than &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; root of subtree.
 
 &nbsp; &nbsp; &nbsp; &nbsp;  **find()** - finds node using name parameters and calls **rAdd()** for proper ordering
 
